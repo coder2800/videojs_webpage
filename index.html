@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video.js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+     <div id="container">
+         <h1>Videos</h1>
+         <video id="myVideo" src="videos/sample-5s.mp4"></video>
+         <br>
+         <output id="timeOut">Time: 0</output>
+         <output id="vidNum">Video: 1/2</output>
+         <div id="playButtons">
+             <button id="btnPlay">Play</button><br>
+             <button id="btnPause">Pause</button><br>
+             <button id="btnStop">Stop</button>
+         </div>
+         <div id="nextButtons">
+             <button id="btnNext">Next Video</button>
+         </div>
+     </div>
+     <script src="player.js"></script>
+</body>
+</html>
